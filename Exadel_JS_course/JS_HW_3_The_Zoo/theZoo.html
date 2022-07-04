@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Volynskaya Zoo</title>
+    <style>
+      body {
+        background: rgb(174, 176, 214);
+        font-family: verdana;
+        color: rgb(0, 0, 0);
+        padding: 30px;
+      }
+
+      h1 {
+        font-size: 48px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-align: center;
+      }
+
+      p,
+      li {
+        font-size: 16px;
+        text-align: center;
+      }
+      div {
+        font-size: 20px;
+        text-align: center;
+      }
+      a {
+        font-size: 22px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        text-align: center;
+      }
+      .box {
+        position: absolute;
+        top: 5%;
+        left: 10%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="box">
+      <form>
+        <select>
+          <option>You in Minsk</option>
+          <option>Gomel</option>
+          <option>Brest</option>
+          <option>Grodno</option>
+          <option>Vitebsk</option>
+        </select>
+      </form>
+    </div>
+    <div class="tab">
+      <button class="tablinks" onclick="openButton(event, 'Main')">Main</button>
+      <button class="tablinks" onclick="openButton(event, 'Services')">
+        Services
+      </button>
+      <button class="tablinks" onclick="openButton(event, 'About us')">
+        About us
+      </button>
+      <button class="tablinks" onclick="openButton(event, 'Contacts')">
+        Contacts
+      </button>
+    </div>
+    <a href="http://minskzoo.by/" target="_blank"
+      ><img style="border: 0; height: 31px; width: 88px" alt="nearest zoo"
+    /></a>
+    <div id="Main" class="tabcontent">
+      <p>The zoo is cool</p>
+    </div>
+    <div id="Services" class="tabcontent">
+      <p>You can't touch, you can watch</p>
+    </div>
+    <div id="About us" class="tabcontent">
+      <p>Сlick on the link on the left</p>
+    </div>
+
+    <div id="Contacts" class="tabcontent">
+      <p>Follow your dream down the yellow brick road</p>
+    </div>
+
+    <h1>The Zoo</h1>
+
+    <p>zoo catalog</p>
+
+    <ul>
+      <li>
+        <strong>OUR TEAM:</strong>
+      </li>
+    </ul>
+    <p id="out_work"></p>
+
+    <ul>
+      <li>
+        <strong>OUR CREATURES:</strong>
+      </li>
+    </ul>
+    <p id="out_anim"></p>
+
+    <script src="./index5.js"></script>
+  </body>
+</html>

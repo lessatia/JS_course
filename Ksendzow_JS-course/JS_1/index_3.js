@@ -12,7 +12,7 @@ const checkAgeCase = function (age) {
       console.log("your age = " + age + " Keep calm and look Culture channel");
     } else console.log("your age = " + age + " Welcome!");
   } else {
-    console.log("Technical work");
+    console.log("Technical work"); 
   }
 };
 checkAgeCase("sdfvg"); 

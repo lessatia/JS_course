@@ -15,5 +15,5 @@ const checkAgeType = function (age) {
   }
 };
 checkAgeType("sdfvg");
-checkAgeType(true);
+checkAgeType(true); 
 checkAgeType(34);

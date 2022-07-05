@@ -22,4 +22,4 @@ const checkAge = function (age) {
 };
 checkAge(17);
 checkAge(18);
-checkAge(61);
+checkAge(61); 
